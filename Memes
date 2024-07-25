@@ -1,0 +1,10 @@
+memes={
+
+  'XD':'Forma sarcastica de ver algo que ocurrio como no debio de haber ocurrido',
+  'TOP':'Expresion la cual se hace conocer que algo es muy bueno'}
+
+word = input('Escribe una palabra que no entiendas').upper()
+if word in memes.keys():
+  print(memes[word])
+else:
+  print('Esta palabra aun no se a agregado lo haremos pronto')
